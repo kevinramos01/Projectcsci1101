@@ -64,7 +64,7 @@ while game_running_flag:
     elif key_pressed[pygame.K_RIGHT]:
         position_delta = 1
 
-        game_characteristics["player"]["position"]["x"] += position_delta
+    game_characteristics["player"]["position"]["x"] += position_delta
 
     # Running game mechanics.
     game_display.fill(game_characteristics["sky"]["color"])
